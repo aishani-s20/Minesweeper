@@ -3,8 +3,9 @@
 A simple web-based implementation of the classic **Minesweeper** game built with **HTML, CSS, and JavaScript**.  
 Players can set the grid size and number of mines, then try to clear all safe tiles without triggering a mine.  
 
-![Minesweeper Screenshot](image.png)  
-*(Replace `screenshot.png` with your actual image file path)*  
+<p align="center">
+  <img src="image.png" alt="Minesweeper Screenshot" width="500"/>
+</p> 
 
 ---
 
