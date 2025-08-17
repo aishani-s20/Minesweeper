@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Minesweeper</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="app2.js"></script>
+        <!-- remove favicon error -->
+        <link rel="icon" href="data:,"> 
+    </head>
+
+    <body>
+        <h1>Mines: <span id="mines-count">0</span></h1>
+        <label>Enter square grid size: <input type="number" id="size" min="1" /></label>
+        <br>
+        <label>Enter number of mines: <input type="number" id="mines_num" min="1" /></label>
+        <br>
+        <button onclick="startGame()">Start Game</button>
+        <br>
+        <button onclick="startGame()">Restart Game</button>
+        <!-- <div id="board"></div> -->
+        <br>
+        <button id="flag-button">🚩</button>
+    </body>
+</html>
